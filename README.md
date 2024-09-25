@@ -16,5 +16,15 @@ This variant here is the one applied to the 100-pixel-torch, running on an ESP32
 You can watch it in action here 
 [![Torch](https://img.youtube.com/vi/a_Wr0q9YQs4/0.jpg)](https://www.youtube.com/watch?v=a_Wr0q9YQs4)
 
+The "Fire" uses two layers of Perlin noise. 
+Perlin is nice, as it is not totally random, but looks like a cloud.
 
+So we have one perlin "cloud" that moves upwards and uses firery colors from a color palette while it "cools down".
+Another perlin "cloud" moves in front of the fire and simulates smoke moving across the fire. 
+Basically, that's all!
 
+Many of the parameters in the code depend on your LED layout - a thin but long led layout needs other speed, "heat", cloud, everything than a wide but short LED layout. If you use few LED, the animation is barely visible, then you rather need a "blinky" style, if you have many and the movement becomes visible, you maybe prefer a "soft" style.
+Just try until you find your ideal. 
+
+Have fun!
+Andreas
