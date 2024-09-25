@@ -1,4 +1,20 @@
+/* This is a fire effect based on the famous Fire2012; but with various small improvements.
+Perlin noise is being used to make a fire layer and a smoke layer;
+and the overlay of both can make a quite realistic effect.
+
+The speed of both need to be adapted to the matrix size and width: 
+* Super small matrices (like 3x3 led) don't need the smoke
+* medium sized matrices (8x8 for example) profit from fine tuning both Fire Speed/scale as well as Smoke speed/scale
+
+This code was adapted for a matrix with just four LED columns in 90° around a core and a height of 28.
+
+Right at the bottom of the code, you find a translation matrix that needs to be adapted to your set up. I included
+a link to a helpful page for this.
+ */
+
+
 #include "FastLED.h"
+
 
 // matrix size
 #define WIDTH  4
