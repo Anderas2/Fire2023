@@ -16,6 +16,11 @@ This variant here is the one applied to the 100-pixel-torch, running on an ESP32
 You can watch it in action here 
 [![Torch](https://img.youtube.com/vi/a_Wr0q9YQs4/0.jpg)](https://www.youtube.com/watch?v=a_Wr0q9YQs4)
 
+Internally it looks like this
+
+![Torch internal](https://github.com/Anderas2/Fire2023/blob/main/PXL_20240925_094213321.jpg)
+
+
 The "Fire" uses two layers of Perlin noise. 
 Perlin is nice, as it is not totally random, but looks like a cloud.
 
