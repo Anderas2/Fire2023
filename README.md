@@ -1,5 +1,5 @@
 # Fire2023
-A fire effect for LED strips, based on Fire2012 with some improvements
+A fire effect for LED strips, based on Fire2012 with some improvements.
 
 The Fire2012 effect is great, because it is easy to used and looks reasonably realistic.
 
@@ -13,5 +13,8 @@ Main improvements: Detailed comments on what line does what, better fire-like co
 I tried applying it on a 6-LED-lamp, it worked (albeit, the big code really is not necessary there), and I tried to apply it to a 100-pixel-torch, and it worked.
 
 This variant here is the one applied to the 100-pixel-torch, running on an ESP32.
+You can watch it in action here 
+[![Torch](https://img.youtube.com/vi/a_Wr0q9YQs4/0.jpg)](https://www.youtube.com/watch?v=a_Wr0q9YQs4)
+
 
 
